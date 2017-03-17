@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/category"/>
+    <ListPreference
+        android:key="settings"
+        android:title="@string/viewas"
+        android:icon="@drawable/settings"
+        android:defaultValue="popular"
+        android:entries="@array/view_list"
+        android:entryValues="@array/view_values"
+        />
+</PreferenceScreen>

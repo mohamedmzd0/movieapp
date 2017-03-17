@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الافلام</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_activity_detail">التفاصيل</string>
+    <string name="viewas">كيفيه العرض</string>
+    <string name="category">تحديد عرض الافلام</string>
+    <string name="title_activity_settings">الاعدادت</string>
+    <string name="network_error">خطا في الاتصال</string>
+    <string name="cant_connect">تأكد من الاتصال بالشبكه</string>
+    <string name="ok">متابعه</string>
+    <string name="please_wait">انتظر من فضلك....</string>
+    <string name="add_fav">تم الاضافه الي المفضله</string>
+    <string name="remove_fav">تم الحذف من المفضله</string>
+    <string-array name="view_list">
+        <item>أكثر شيوعا</item>
+        <item>أعلى معدل</item>
+        <item>المفضله</item>
+    </string-array>
+    <string-array name="view_values">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>favourite</item>
+    </string-array>
+</resources>
