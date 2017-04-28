@@ -171,7 +171,7 @@ public class DetailActivityFragment extends Fragment {
             InputStream inputStream ;
             StringBuffer stringBuffer=new StringBuffer() ;
             try {
-                URL myurl = new URL("https://api.themoviedb.org/3/movie/"+id+"/videos?api_key="+"832f13a97b5d2df50ecf0dbc8a0f46ae");
+                URL myurl = new URL("https://api.themoviedb.org/3/movie/"+id+"/videos?api_key=*******************************");
                 httpURLConnection=(HttpURLConnection) myurl.openConnection() ;
                 httpURLConnection.setRequestMethod("GET");
                 httpURLConnection.connect();
