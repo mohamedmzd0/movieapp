@@ -163,7 +163,7 @@ public class MainActivityFragment extends Fragment {
 
             try {
 
-                URL url = new URL("http://api.themoviedb.org/3/movie/"+type+"?api_key="+"832f13a97b5d2df50ecf0dbc8a0f46ae");
+                URL url = new URL("http://api.themoviedb.org/3/movie/"+type+"?api_key=***************************");
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
                 urlConnection.connect();
